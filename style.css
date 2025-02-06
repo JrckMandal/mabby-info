@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency to make text more readable */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 36px;
+    color: #FF6F61;
+    margin-bottom: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.dog-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #FF6F61;
+}
+
+.info {
+    font-size: 18px;
+    color: #555;
+    margin: 15px 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.label {
+    font-weight: bold;
+    color: #FF6F61;
+}
+
+.info span {
+    font-weight: normal;
+    color: #333;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #777;
+}
+
+.footer a {
+    color: #FF6F61;
+    text-decoration: none;
+}
